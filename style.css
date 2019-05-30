@@ -1,0 +1,124 @@
+body { background: url("1.png"); 
+}
+main{background-color: pink;
+height: 1000px;
+width: 1400px;
+margin: 0 auto;}
+
+nav{display: flex;
+    background-color: #402720;
+    height: 120px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: white; 
+    justify-content: space-between;
+	box-sizing: border box; }
+
+.img_nav {
+	height: 100px;
+	width: 500px;
+	float: left;
+	display: flex;
+	justify-content: space-around;
+}
+.img_nav img{
+	height: 120px;
+	width: 200px;
+}
+
+
+.nav_menu{
+	
+	width:600px;
+	float: right;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	word-spacing: 5px;
+}
+
+.nav_menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav_menu li{
+	font-family: Times New Ro...;
+	color: white;
+	font-size: 24px;
+	display: inline-block;
+	text-align: center;
+    line-height: 100px;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+li:hover{
+	background:#ff9933;
+	cursor: pointer;
+	color: #402720;
+}
+
+nav{position: sticky;
+top:0;
+}
+
+.misto{
+    color: black; 
+	font-family: Times New Ro...;
+	font-size: 42px; 
+	text-align: center;
+} 
+.misto img{
+	width: 1400px;
+	height: 1000px;
+}
+.misto2 img{
+	width: 400px;
+	height: 300px;
+	float: left;
+}
+
+.misto3{
+	color: white;
+	font-family: Times New Ro...;
+	font-size: 30px;
+	text-align: right;
+	background-color: #402720;
+	align-items: center;
+	justify-content: center;
+
+}
+.misto3{
+	height: 300px;
+	text-align: center;
+
+}
+
+.hora img{
+	width: 480px;
+	height: 
+	398px;
+	float: right;
+	margin:10px;
+}
+
+.hora1{
+	color: white;
+	font-family: Times New Ro...;
+	font-size: 30px;
+	text-align: left;
+	background-color: #402720;
+	margin: 10px;
+	height: 400px;
+	align-items: center;
+	justify-content: center;
+}
+
+.nav_menu a{
+	color: white;
+}
+.nav_menu a:hover{
+	color: black;
+}
